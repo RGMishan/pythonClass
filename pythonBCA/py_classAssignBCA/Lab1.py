@@ -23,7 +23,13 @@ print("Your total saving of April is:", saving)
 
 rate = input("Enter the interest rate of your bank:")
 rate = float(rate)
-
+print("Checking if your bank has good rate of interest.....")
+if rate > 7.5:
+ print(True)
+ print("Rate is good.")
+else:
+ print(False)
+ print("Try SBI bank they give 7.6%pm.")
 print("Your interest in April month is:", (saving*(1/12)*rate)//100 )
 
 print("\nLogical Operator")
@@ -34,5 +40,29 @@ elif (salary1 > salary2 or saving < 500):
 elif (not(salary1 < salary2 and saving > 500)):
  print("Need to look for next job and save more money")
 
+print("Index Operator")
+lst = [] #Initialized List
+  
+# number of elements as input 
+n = int(input("Enter number of household item you bought today: ")) 
 
+for i in range(0, n): 
+ item = str(input("Enter item :")) 
+ lst.append(item) # adding the element 
 
+print("You bought carrot in",lst.index('carrot') , "position.") 
+
+i = 0
+print("\nContinue")
+while i < len(lst):
+ print(lst[i])
+ i+=1
+ continue
+
+print("\nBreak")
+i = 0
+while i <len(lst):
+ if lst[i] == "mango":
+  print("\nMango found.")
+  break
+ i+=1
