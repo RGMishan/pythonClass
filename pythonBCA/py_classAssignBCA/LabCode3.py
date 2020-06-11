@@ -2,7 +2,7 @@ import re
 import collections
 import random
 
-print("Lab 2 Python")
+print("Lab 3 Python")
 print("Mishan Regmi 5BCA A '1841030'")
 
 # 1.Explore any 5 string functions in python.
