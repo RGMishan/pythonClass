@@ -1,5 +1,6 @@
 import sys 
-'''
+from heapq import heappop, heappush
+
 print("Lab 4 Python")
 print("Mishan Regmi 5BCA A '1841030'\n")
 
@@ -26,16 +27,14 @@ for i in range(n):
 print("The name sorted in length is:\n", sorted_list)
 
 print("----------------------------------------------------------------")
-print("The difference in sort nd sorted is that sort() will sort the given list\n")
-print("And the sorted will make a new variable and store value there.\n")
+print("The difference in sort nd sorted is that sort() will sort the given list no return.\n")
+print("And the sorted will make a new variable and store value there return the list.\n")
 print("----------------------------------------------------------------")
-'''
 
 # B. Write a program in Python to implement selection sort and Heap sort.
 # Include the concept of list, functions and tuples wherever applicable.
 
 #selection sort
-
 n=int(input("\nEnter the amount of goods bought: ")) 
 
 #create a empty list to store values
@@ -57,3 +56,26 @@ for i in range(len(A)):
     print("%s" %A[i]) 
 
 #heap sort
+def heap_sort(name):
+    heap = []
+    for element in name:
+        heappush(heap, element)
+    ordered = []
+    # While we have elements left in the heap
+    while heap:
+        ordered.append(heappop(heap))
+    return ordered
+
+c=int(input("\nEnter the number of branch.")) 
+company=[]  
+for i in range(c): 
+ company.append(input(""))
+print("Company Branch in sorted order is\n",heap_sort(company))
+
+# C. Write a program to calculate the annual sales of an e-commerce company for past 5 
+# years. Display the quarterly sales of the year 2018 in decreasing order. Use the lambda
+# function for performing accounting operations and user defined functions for displaying 5
+# years sales and quarterly sales of 2018.
+
+
+
