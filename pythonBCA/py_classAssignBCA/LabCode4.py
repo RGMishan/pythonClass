@@ -56,7 +56,7 @@ print ("\nSorted goods are:")
 for l in range(len(A)): 
     print("%s" %A[l]) 
 
-#heap sort
+#heap sort15
 print("\nHeap Sort\n")
 def heap_sort(name):
     heap = []
