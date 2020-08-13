@@ -63,4 +63,3 @@ s = liq.price_val()
 
 v = int(q) + int(r) + int(s)
 print("\nTotal Price {}".format(v))
-

@@ -6,7 +6,7 @@ int main(){
 	int i = 5; //integer value
 	char str1[50]; //character string
 	char m[] = "Mishan"; //charachter string
-	char a = "Y"; //character
+	char a = 'Y'; //character
 	double d = 15.26455254666; //double
 	float f = 10.2536; //floating value
 	printf("Hello World\n");
@@ -23,5 +23,10 @@ int main(){
     scanf("%s", str1);
     printf("%s", str1);
 	puts("\nHey There");
+	printf("%d\t",sizeof(6.5));
+
+printf("%d\t",sizeof(90000));
+
+printf("%d",sizeof('A'));
 	return 0;
 }
