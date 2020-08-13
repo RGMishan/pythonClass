@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 int main(){
-	/*
+	
 	//use of scanf
 	int age, weight;
 	printf("Please enter your age:\t");
@@ -51,41 +51,64 @@ int main(){
 	}
 	
 	
-	
 	//the ternary conditional operator
 	int num1 , num2, ans;
 	printf("Enter the first number.\n");
 	scanf("%d", &num1);
 	printf("Enter the second number.\n");
 	scanf("%d", &num2);
-	*/
-	//	ans = ( num1 > num2 /*checking condition*/ ) ? (num1 /*true then get this*/) : (num2 /*if false*/);
-    //	printf("The greater number is %d", ans); 
 	
-	//switch case
-//	int ch;
-//	char g;
-//	char name[20];
-//	printf("1. Enter details\n2. Display Detail\nOther Number. Exit Program\n\n");
-//	printf("Enter your choice:\t");
-//	scanf("%d", &ch);
-//	
-//	switch(ch){
-//		case 1:
-//			printf("Enter your name:\t");
-//			scanf("%s", &name);
-//			printf("Enter your gender (M or F):\t");
-//			fflush(stdin);
-//			scanf("%c", &g);
-//			break;
-//		case 2:
-//			printf("Your name is %s ", name);
-//			printf("\tAnd your gender is %c", g);
-//			break;
-//		default :
-//			printf("Thank You");
-//	}
-//	
+	ans = ( num1 > num2 /*checking condition*/ ) ? (num1 /*true then get this*/) : (num2 /*if false*/);
+   	printf("The greater number is %d", ans); 
 	
+	
+	// switch case
+	int ch;
+	char g;
+	char name[20];
+	printf("1. Enter details\n2. Display Detail\nOther Number. Exit Program\n\n");
+	printf("Enter your choice:\t");
+	scanf("%d", &ch);
+	
+	switch(ch){
+		case 1:
+			printf("Enter your name:\t");
+			scanf("%s", &name);
+			printf("Enter your gender (M or F):\t");
+			fflush(stdin);
+			scanf("%c", &g);
+			break;
+		case 2:
+			printf("Your name is %s ", name);
+			printf("\tAnd your gender is %c", g);
+			break;
+		default :
+			printf("Thank You");
+	}
+	
+	
+	//while loop
+	int wh = 0;
+	while(wh < 10){
+		printf("\nValue of wh is %d\n", wh);
+		wh++;
+	}
+
+
+	//do while loop
+	int ii = 0;
+	do
+	{
+		printf("The value of ii is %d\n", ii);
+		ii++;
+	}
+	while(ii < 10);	
+
+
+	//for loop
+	int j ;
+	for (j=1; j<=10; j++){
+		printf("Number = %d\n", j);
+	}
 	
 }
