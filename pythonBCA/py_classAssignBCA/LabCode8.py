@@ -27,7 +27,7 @@ class Calculator:
 
         self.operator = ""
         self.var = StringVar()
-        frame_s = Frame(master, height=400, width=45 )
+        frame_s = Frame(master, height=900, width=45 )
         frame_s.pack(side=TOP, fill=BOTH, expand=True)
         self.entry = Entry(frame_s,textvariable=self.var,bg='grey',width=45,bd=20,insertwidth=4,justify='right',font=('arial',10,'bold'))
         self.entry.pack()
@@ -138,8 +138,7 @@ class Calculator:
 
         label_rbrace = Label(label_fkey, bg='black')
         label_rbrace.grid(row=3, column=1, sticky=E, pady=10)
-        button_rbrace = Button(label_rbrace, text=')', font=('Helvetica', '16'), height=1, width=3,
-                               command=lambda: self.click_button(')'),bg='black',fg='cyan')
+        button_rbrace = Button(label_rbrace, text=')', font=('Helvetica', '16'), height=1, width=3,command=lambda: self.click_button(')'),bg='black',fg='cyan')
         button_rbrace.pack()
 
 c = Calculator(root)
