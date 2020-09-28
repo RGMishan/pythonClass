@@ -1,0 +1,11 @@
+<data>
+    <items>
+        <item name="day1">Sunday</item>
+        <item name="day2">Monday</item>
+        <item name="day3">Tuesday</item>
+        <item name="day4">Wednesday</item>
+        <item name="day5">Thursday</item>
+        <item name="day6">Friday</item>
+        <item name="day7">Saturday</item>
+    </items>
+</data>
