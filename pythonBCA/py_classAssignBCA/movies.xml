@@ -1,0 +1,66 @@
+<collection shelf="Movies and Web Series">
+<movie title="Parasite">
+   <type>Comedy, Drama, Thriller</type>
+   <format>DVD</format>
+   <year>2019</year>
+   <rating>R</rating>
+   <stars>8.6</stars>
+   <description>Gisaengchung Story</description>
+</movie>
+<movie title="1917">
+   <type>Drama, War</type>
+   <format>DVD</format>
+   <year>2019</year>
+   <rating>R</rating>
+   <stars>8.3</stars>
+   <description>Story of two soldiers</description>
+</movie>
+<movie title="Ford v Ferrari">
+   <type>Action, Biography, Drama</type>
+   <format>DVD</format>
+   <year>2019</year>
+   <rating>PG-13</rating>
+   <stars>8.1</stars>
+   <description>Story of American car designers Carroll Shelby and driver Ken Miles </description>
+</movie>
+<movie title="Money Heist">
+   <type>Action, Crime, Mystery </type>
+   <format>NETFLIX</format>
+   <year>2019</year>
+   <rating>TV-MA </rating>
+   <stars>8.4</stars>
+   <description>Story of Robbers</description>
+</movie>
+<movie title="Enemy Behind">
+   <type>War, Thriller</type>
+   <format>DVD</format>
+   <year>2003</year>
+   <rating>PG</rating>
+   <stars>10</stars>
+   <description>Talk about a US-Japan war</description>
+</movie>
+<movie title="Transformers">
+   <type>Anime, Science Fiction</type>
+   <format>DVD</format>
+   <year>1989</year>
+   <rating>R</rating>
+   <stars>8</stars>
+   <description>A schientific fiction</description>
+</movie>
+<movie title="Trigun">
+   <type>Anime, Action</type>
+   <format>DVD</format>
+   <year>2010</year>
+   <rating>PG</rating>
+   <stars>10</stars>
+   <description>Vash the Stampede!</description>
+</movie>
+<movie title="Ishtar">
+   <type>Comedy</type>
+   <format>VHS</format>
+   <year>1987</year>
+   <rating>PG</rating>
+   <stars>2</stars>
+   <description>Viewable boredom</description>
+</movie>
+</collection>

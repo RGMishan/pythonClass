@@ -1,0 +1,23 @@
+RANDOM TEXT FOR INPUT
+
+Hello Alen,
+
+Greating from South Indian Bank!
+Thank you so much for allowing us to help you with your recent 
+account opening. Your account number is 1020304050607099 and the IFSC code
+is SIBN2020 hope you remember it.
+We are committed to providing our customers with the highest level 
+of service and the most innovative banking products possible.
+
+
+Hello Divya,
+
+Greating from State Bank of India!
+We regret to loose an essteem customer who was with us for past 2 years.
+Regarding closing of your account please find the following details:
+Account number is 8020304050607099 and the IFSC code
+is SBI00001 Thank you.
+
+Hello Sparsh,
+You have withdrawn Rs.200 million dollars from the account 6020304050607099. 
+From the Vijaya Bank ATM at 4PM on 23-JAN-2020. If it is not you may contact us by phone at 1-800-555-5555.
