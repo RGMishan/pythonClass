@@ -5,24 +5,27 @@ myTree = ET.parse('data.xml')
 myroot = myTree.getroot()
 print(myroot.tag)
 
-for x in myroot.findall('Student'):
+for x in myroot.findall('Doctor'):
     id = x.find('id').text #convert data to text
     name = x.find('name').text
-    course = x.find('program').text
-    grade  = x.find('grade').text
+    spec = x.find('spec').text
+    login  = x.find('login').text
+    password  = x.find('password').text
     
     print('\n')
     print('ID       : {}\n'.format(id))
     print('NAME     : {}\n'.format(name))
-    print('COURSE   : {}\n'.format(course))
-    print('GRADE    : {}\n'.format(grade))
+    print('SPECIALIZATION   : {}\n'.format(spec))
+    print('LOGIN    : {}\n'.format(login))
+    print('PASSWORD    : {}\n'.format(password))
 
 idget     = input('ID :')
 nameget   = input('Name :')
-courseget = input('Course :')
-gradeget  = input('Grade  :')
+specget = input('Specialization :')
+loginget  = input('Login  :')
+passwordget  = input('Password  :')
 
-child=ET.Element("Student") #added tags tudent
+child=ET.Element("Doctor") #added tags tudent
 myroot.append(child)
 
 #Data get saved here
@@ -31,7 +34,7 @@ id.text = idget
 nm = ET.SubElement(child, "name")
 nm.text = nameget
 program = ET.SubElement(child, "program")
-program.text = courseget
+program.text = specget
 grade=ET.SubElement(child, "grade")
 grade.text= gradeget
 
