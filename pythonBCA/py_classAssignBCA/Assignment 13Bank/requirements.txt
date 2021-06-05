@@ -48,6 +48,6 @@ six==1.14.0
 sqlparse==0.3.1
 tornado==6.0.4
 traitlets==5.0.4
-urllib3==1.25.8
+urllib3==1.26.5
 wcwidth==0.2.5
 webencodings==0.5.1
